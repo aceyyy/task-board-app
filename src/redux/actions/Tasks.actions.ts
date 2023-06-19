@@ -2,7 +2,7 @@ import axios, { AxiosError } from 'axios';
 import { createAction, createAsyncThunk } from '@reduxjs/toolkit';
 import { SortByCategoryType, SortByOrderType, TasksModalType, TasksModalUpdateObj, TasksObj, TasksObjPartial } from '../../types/tasks.types';
 import { ResponsePayloadError } from '../../types/responses.types';
-import { showErrorToast, showSuccessToast } from '../../utils/toastr';
+import { showErrorToast, showSuccessToast } from '../../utils/toast';
 
 const API_endpoint = 'https://sbc-test-api.web.app';
 
